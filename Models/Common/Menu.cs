@@ -9,6 +9,8 @@ namespace Forge.Models.Common
     {
         public int MenuId { get; set; }
         public string MenuName { get; set; }
+        public string MenuUrl { get; set; }
+        public string MenuIconClass { get; set; }
         public int Sort { get; set; }
         public int UserType { get; set; }
         public int Parent { get; set; }

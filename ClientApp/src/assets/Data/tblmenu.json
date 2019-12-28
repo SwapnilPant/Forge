@@ -1,68 +1,82 @@
-{
-  "tblmenu": [
-    {
-      "menuid": 1,
-      "menuname": "Overview",
-      "sort": 1,
-      "usertype": 4,
-      "parent":0,
-      "active": 1
-    },
-    {
-      "menuid": 2,
-      "menuname": "Search Work",
-      "sort": 2,
-      "usertype": 4,
-      "parent": 0,
-      "active": 1
-    },
-    {
-      "menuid": 3,
-      "menuname": "Account",
-      "sort": 3,
-      "usertype": 4,
-      "parent": 0,
-      "active": 1
-    },
-    {
-      "menuid": 4,
-      "menuname": "Transaction",
-      "sort": 4,
-      "usertype": 4,
-      "parent": 0,
-      "active": 1
-    },
-    {
-      "menuid": 5,
-      "menuname": "Update Profile",
-      "sort": 5,
-      "usertype": 4,
-      "parent": 0,
-      "active": 1
-    },
-    {
-      "menuid": 6,
-      "menuname": "Programme",
-      "sort": 6,
-      "usertype": 4,
-      "parent": 0,
-      "active": 1
-    },
-    {
-      "menuid": 7,
-      "menuname": "Wallet",
-      "sort": 7,
-      "usertype": 4,
-      "parent": 0,
-      "active": 1
-    },
-    {
-      "menuid": 8,
-      "menuname": "Service",
-      "sort": 8,
-      "usertype": 4,
-      "parent": 0,
-      "active": 1
-    }
+ [
+  {
+    "menuid": 1,
+    "menuname": "Overview",
+    "menuurl": "index",
+    "menuiconclass": "home",
+    "sort": 1,
+    "usertype": 4,
+    "parent": 0,
+    "active": 1
+  },
+  {
+    "menuid": 2,
+    "menuname": "Search Work",
+    "menuurl": "index",
+    "menuiconclass": "empty",
+    "sort": 2,
+    "usertype": 4,
+    "parent": 0,
+    "active": 1
+  },
+  {
+    "menuid": 3,
+    "menuname": "Account",
+    "menuurl": "index",
+    "menuiconclass": "code",
+    "sort": 3,
+    "usertype": 4,
+    "parent": 0,
+    "active": 1
+  },
+  {
+    "menuid": 4,
+    "menuname": "Transaction",
+    "menuurl": "index",
+    "menuiconclass": "chart-bars",
+    "sort": 4,
+    "usertype": 4,
+    "parent": 0,
+    "active": 1
+  },
+  {
+    "menuid": 5,
+    "menuname": "Update Profile",
+    "menuurl": "index",
+    "menuiconclass": "cog",
+    "sort": 5,
+    "usertype": 4,
+    "parent": 0,
+    "active": 1
+  },
+  {
+    "menuid": 6,
+    "menuname": "Programme",
+    "menuurl": "index",
+    "menuiconclass": "alarm",
+    "sort": 6,
+    "usertype": 4,
+    "parent": 0,
+    "active": 1
+  },
+  {
+    "menuid": 7,
+    "menuname": "Wallet",
+    "menuurl": "index",
+    "menuiconclass": "home",
+    "sort": 7,
+    "usertype": 4,
+    "parent": 0,
+    "active": 1
+  },
+  {
+    "menuid": 8,
+    "menuname": "Service",
+    "menuurl": "index",
+    "menuiconclass": "home",
+    "sort": 8,
+    "usertype": 4,
+    "parent": 0,
+    "active": 1
+  }
   ]
-}

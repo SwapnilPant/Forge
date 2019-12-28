@@ -1,21 +1,23 @@
-import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { Injectable, Inject } from '@angular/core';
+import { HttpClient, HttpResponse } from '@angular/common/http';
 import { MenuList } from '../model/menulist';
+import { Observable, of } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
 export class MenulistService {
-  apiURL: string = 'https://localhost:44365/';
-  constructor(private httpClient: HttpClient) { this.getMenuList();}
+  public menulists: MenuList[];
+
+  constructor(private http: HttpClient, @Inject('BASE_URL') private baseUrl: string) {
+  }
 
   public createMenuList(menulist: MenuList) { }
   public updateMenuList(menulist: MenuList) { }
-  public deleteCustomer(menuid: number) { }
-  public getCustomerById(id: number) { }
-  public getCustomers(url?: string) { }
+  public deleteMenuList(menuid: number) { }
+  public getMenuListById(id: number) { }
 
-  public getMenuList() {
-    return this.httpClient.get<MenuList[]>(`${this.apiURL}/MenuController/GetMenuJson`);
+  public getMenuList(): Observable<HttpResponse<MenuList[]>> {
+    return this.http.get<MenuList[]>(this.baseUrl + 'menu', { observe: 'response' });
   }
 }

@@ -38,46 +38,23 @@
   </nav>
   <div id="sidebar-nav" class="sidebar">
     <div class="sidebar-scroll">
+      <p *ngIf="!menulists"><em>Loading...</em></p>
       <nav>
-        <ul class="nav">
+        <ul *ngFor="let menulist of menulists" class="nav">
 
-          <li><a href="index.html" class="active"><i class="lnr lnr-home"></i> <span>Dashboard</span></a></li>
-          <li>
-            <a href="#subPages1" data-toggle="collapse" class="collapsed"><i class="lnr lnr-file-empty"></i> <span>Submit blogs</span> <i class="icon-submenu lnr lnr-chevron-left"></i></a>
-            <div id="subPages1" class="collapse ">
-              <ul class="nav">
-                <li><a href="page-profile.html" class="">Profile</a></li>
-                <li><a href="page-login.html" class="">Login</a></li>
-                <li><a href="page-lockscreen.html" class="">Lockscreen</a></li>
-              </ul>
-            </div>
-          </li>
-          <li>
-            <a href="#subPages2" data-toggle="collapse" class="collapsed"><i class="lnr lnr-file-empty"></i> <span>Pages</span> <i class="icon-submenu lnr lnr-chevron-left"></i></a>
-            <div id="subPages2" class="collapse ">
-              <ul class="nav">
-                <li><a href="page-profile.html" class="">Profile</a></li>
-                <li><a href="page-login.html" class="">Login</a></li>
-                <li><a href="page-lockscreen.html" class="">Lockscreen</a></li>
-              </ul>
-            </div>
-          </li>
-          <li><a href="elements.html" class=""><i class="lnr lnr-code"></i> <span>Elements</span></a></li>
-          <li><a href="charts.html" class=""><i class="lnr lnr-chart-bars"></i> <span>Charts</span></a></li>
-          <li><a href="panels.html" class=""><i class="lnr lnr-cog"></i> <span>Panels</span></a></li>
-          <li><a href="notifications.html" class=""><i class="lnr lnr-alarm"></i> <span>Notifications</span></a></li>
+          <li *ngIf="menulist.menuId==1 && menulist.active==1"><a href="{{ menulist.menuUrl}}" class="active"><i class="lnr lnr-{{menulist.menuIconClass}}"></i> <span>{{menulist.menuName}}</span></a></li>
+          <li *ngIf="menulist.menuId!=1 && menulist.active==1"><a href="{{ menulist.menuUrl}}" ><i class="lnr lnr-{{menulist.menuIconClass}}"></i> <span>{{menulist.menuName}}</span></a></li>
+          <!--<li>
+        <a href="#subPages1" data-toggle="collapse" class="collapsed"><i class="lnr lnr-file-empty"></i> <span>Submit blogs</span> <i class="icon-submenu lnr lnr-chevron-left"></i></a>
+        <div id="subPages1" class="collapse ">
+          <ul class="nav">
+            <li><a href="page-profile.html" class="">Profile</a></li>
+            <li><a href="page-login.html" class="">Login</a></li>
+            <li><a href="page-lockscreen.html" class="">Lockscreen</a></li>
+          </ul>
+        </div>
+      </li>-->
 
-
-          <li>
-            <a href="#subPages3" data-toggle="collapse" class="collapsed"><i class="lnr lnr-file-empty"></i> <span>Instruction</span> <i class="icon-submenu lnr lnr-chevron-left"></i></a>
-            <div id="subPages3" class="collapse ">
-              <ul class="nav">
-                <li><a href="page-profile.html" class="">Profile</a></li>
-                <li><a href="page-login.html" class="">Login</a></li>
-                <li><a href="page-lockscreen.html" class="">Lockscreen</a></li>
-              </ul>
-            </div>
-          </li>
         </ul>
       </nav>
     </div>
