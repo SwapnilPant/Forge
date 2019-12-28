@@ -1,0 +1,60 @@
+{
+  "tblfooter": [
+    {
+      "menuid": 1,
+      "menuvalue": "Overview",
+      "sort": 1,
+      "usertype": 4,
+      "active": 1
+    },
+    {
+      "menuid": 2,
+      "menuvalue": "Search Work",
+      "sort": 2,
+      "usertype": 4,
+      "active": 1
+    },
+    {
+      "menuid": 3,
+      "menuvalue": "Account",
+      "sort": 3,
+      "usertype": 4,
+      "active": 1
+    },
+    {
+      "menuid": 4,
+      "menuvalue": "Transaction",
+      "sort": 4,
+      "usertype": 4,
+      "active": 1
+    },
+    {
+      "menuid": 5,
+      "menuvalue": "Update Profile",
+      "sort": 5,
+      "usertype": 4,
+      "active": 1
+    },
+    {
+      "menuid": 6,
+      "menuvalue": "Programme",
+      "sort": 6,
+      "usertype": 4,
+      "active": 1
+    },
+    {
+      "menuid": 7,
+      "menuvalue": "Wallet",
+      "sort": 7,
+      "usertype": 4,
+      "active": 1
+    },
+    {
+      "menuid": 8,
+      "menuvalue": "Service",
+      "sort": 8,
+      "usertype": 4,
+      "active": 1
+    }
+  ]
+}

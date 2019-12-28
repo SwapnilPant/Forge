@@ -1,0 +1,24 @@
+{
+  "tblusertype": [
+    {
+      "usertypeid": 1,
+      "usertypename": "Admin",
+      "active": 1
+    },
+    {
+      "usertypeid": 2,
+      "usertypename": "Cient",
+      "active": 1
+    },
+    {
+      "usertypeid": 3,
+      "usertypename": "Partner",
+      "active": 1
+    },
+    {
+      "usertypeid": 4,
+      "usertypename": "All",
+      "active": 1
+    }
+  ]
+}
