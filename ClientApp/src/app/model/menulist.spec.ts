@@ -1,7 +1,7 @@
-import { Menulist } from './menulist';
+import { MenuList } from './menulist';
 
 describe('Menulist', () => {
   it('should create an instance', () => {
-    expect(new Menulist()).toBeTruthy();
+    expect(new MenuList()).toBeTruthy();
   });
 });

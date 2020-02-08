@@ -1,0 +1,36 @@
+{
+    "tblusermaster": [
+        {
+            "userid":1,
+            "username":"ayush",
+            "password":"admin",
+            "active":1,
+            "createddate":"20-01-2020",
+            "updateddate":"20-01-2020"
+        },
+        {
+            "userid":2,
+            "username":"swapnil",
+            "password":"admin",
+            "active":1,
+            "createddate":"20-01-2020",
+            "updateddate":"20-01-2020"
+        },
+        {
+            "userid":3,
+            "username":"nero",
+            "password":"admin",
+            "active":1,
+            "createddate":"20-01-2020",
+            "updateddate":"20-01-2020"
+        },
+        {
+            "userid":4,
+            "username":"koila",
+            "password":"admin",
+            "active":1,
+            "createddate":"20-01-2020",
+            "updateddate":"20-01-2020"
+        }
+    ]
+}

@@ -1,4 +1,12 @@
-
+.mat-dialog-container{
+  padding: 0px;
+}
+.footer-container{
+  position: fixed;
+}
+.wrapper{
+  height: 100%;
+}
 html {
   position: relative;
   min-height: 100%; }
@@ -67,10 +75,6 @@ footer {
   float: right;
   background-color: #f5f5fa; }
 
-#wrapper #sidebar-nav,
-#wrapper .main {
-  padding-top: 80px; }
-
 @media screen and (max-width: 767px) {
   #wrapper #sidebar-nav,
   #wrapper .main {
@@ -109,7 +113,7 @@ footer {
     display: none; } }
 
 .main-content {
-  padding: 28px 10px; }
+  padding: 5px; }
 
 .navbar + .main-content {
   padding: 105px 0 28px 5px; }
@@ -157,7 +161,7 @@ html.fullscreen-bg #wrapper {
     background-color: #f8f8f8; }
   .navbar-default .brand {
     float: left;
-    padding: 30px 39px;
+    padding-top: 15px;
     background-color: #243a51; }
   @media screen and (max-width: 1024px) {
     .navbar-default .brand {
@@ -171,8 +175,7 @@ html.fullscreen-bg #wrapper {
       float: right; } }
 
 .navbar-btn {
-  float: left;
-  padding: 16px 0; }
+  float: left; }
   .navbar-btn button {
     font-size: 24px;
     padding: 4px 8px;
@@ -214,16 +217,12 @@ html.fullscreen-bg #wrapper {
   *vertical-align: auto;
   *zoom: 1;
   *display: inline;
-  padding-top: 28px;
-  padding-bottom: 28px;
   position: relative; }
   .navbar-nav .icon-menu .badge {
     position: absolute;
     top: 22px;
     right: 16px; }
 
-.navbar-nav > li > a {
-  padding: 28px 20px; }
   .navbar-nav > li > a > i {
     font-size: 22px;
     margin-right: 2px;
@@ -1751,4 +1750,7 @@ ul.activity-timeline > li {
 
 .navbar{
   background-color: #243a51;
+}
+.cdk-overlay-container{
+  position: absolute !important;
 }

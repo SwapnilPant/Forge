@@ -1,0 +1,32 @@
+{
+    "tblclientmaster": [
+        {
+            "userid": 3,
+            "username": "nero",
+            "companyname": "Nero",
+            "companyemail": "nero@nero.com",
+            "contactperson":"Ayush",
+            "contactcode":1,
+            "addresscodeno": 1,
+            "citycode": 1,
+            "pincode": 380015,
+            "gstno":"APKD88281920",
+            "contractno":1,
+            "typeofbusiness":"manufacturing"
+        },
+        {
+            "userid":4,
+            "username": "koila",
+            "companyname": "koila",
+            "companyemail": "koila@koila.com",
+            "contactperson":"Ayush",
+            "contactcode":1,
+            "addresscodeno": 1,
+            "citycode": 1,
+            "pincode": 380015,
+            "gstno":"APKD88281920",
+            "contractno":1,
+            "typeofbusiness":"manufacturing"
+        }
+    ]
+}

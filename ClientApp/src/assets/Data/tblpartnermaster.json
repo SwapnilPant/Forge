@@ -1,0 +1,31 @@
+{
+  "tblpartnermaster": [
+    {
+      "userid":1 ,
+      "username": "ayush",
+      "userfirstname": "Ayush",
+      "usermiddlename": "Pxant",
+      "userlastname": "Pxant",
+      "addresscodeno":1,
+      "dob": "08-08-1994",
+      "citycode": 1,
+      "pincode": 380015,
+      "gender":1,
+      "contactno1":8789875236,
+      "contactno2":9898986535
+    },{
+      "userid":2 ,
+      "username": "swapnil",
+      "userfirstname": "Swapnil",
+      "usermiddlename": "",
+      "userlastname": "Pant",
+      "addresscodeno":1,
+      "dob": "16-05-1996",
+      "citycode": 1,
+      "pincode": 380015,
+      "gender":1,
+      "contactno1":8789875236,
+      "contactno2":9898986535
+    }
+  ]
+}

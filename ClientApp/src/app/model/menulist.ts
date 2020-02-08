@@ -1,12 +1,12 @@
 export class MenuList {
-  MenuId: number;
-  MenuName: string;
-  MenuUrl: string;
-  MenuIconClass: string;
-  Sort: number;
-  UserType: number;
-  Parent: number;
-  Active: number;
+  menuid: number;
+  menuname: string;
+  menuurl: string;
+  menuiconclass: string;
+  sort: number;
+  usertype: number;
+  parent: number;
+  active: number;
   
 }
 
